@@ -1,0 +1,11 @@
+#map-outer {  
+	height: 240px; 
+	padding: 20px; 
+	border: 2px solid #CCC; 
+	margin-bottom: 20px; 
+	background-color:#FFF 
+}
+#map-container { height: 200px }
+@media all and (max-width: 768px) {
+    
+}

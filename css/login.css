@@ -1,0 +1,53 @@
+/*Chabges provided by designer Start*/
+.btn-primary {
+  background-color: #377ABB !important;
+  border-color: #377ABB !important;
+  color: #FFFFFF !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #58ABD6 !important;
+  border-color: #58ABD6 !important;
+  color: #FFFFFF !important;
+}
+
+/* .form-control:focus {
+  border-color: #313193 !important;
+} */ /*Already overriden in custom.css*/
+
+
+/*Commented this section to keep the links consistent with rest of the places.
+ a{
+	color:#313193 !important;
+} */
+
+.watermark-bg {
+  background:#f3f3f4 url(../img/Bg_Watermark.jpg) no-repeat 50% -20%;
+  background-color: #ABABAB;
+}
+
+
+.middle-box {
+    box-shadow: 0 0 15px #666 !important;
+    left: 50% !important;
+    padding: 15px !important;
+    position: absolute !important;
+    text-align: left !important;
+    top: 10% !important;
+    width: 30% !important;
+    z-index: 100 !important;
+ margin-top:-20px;
+ height:auto;
+}
+
+ .loginscreen.middle-box {
+  margin-left: -180px !important;
+    width: 350px !important;
+ margin-top:-20px;
+}
+
+/*Chabges provided by designer End*/

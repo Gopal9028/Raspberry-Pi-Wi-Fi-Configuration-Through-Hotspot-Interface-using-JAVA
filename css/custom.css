@@ -1,0 +1,673 @@
+.dashboard-bg{
+	background-color:gray;
+}
+.yob-container{
+	position:relative;
+	border:1px solid #e7eaec;
+	background-color: #FFF;
+	display: inline-block;
+}
+.yob-title-action-icon{
+	font-size:35px;
+	color:gray;
+}
+.yob-widget{
+	margin:0px;
+	padding-bottom:0px;
+}
+.white-bg{
+	background-color: #FFF;
+}
+
+.mandatory{
+ border-color:#ed5565 !important;
+}
+.removeContactButtonClass{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+	color: #000;
+    float: right;
+    font-weight: 700;
+    opacity: 0.4;
+    text-shadow: 0 1px 0 #fff;	
+}
+.removeContactButtonClass:hover {
+	opacity:0.9;
+}
+
+ #map {
+	width:100%;
+	margin:0 auto 15px 0;
+	height: 200px;
+}
+
+.map {
+	width:100%;
+	margin:0 auto 15px 0;
+	 height: 200px;
+}
+
+
+.addNewEmail,.addNewWebsite,.addNewPhoneNumber,.addNewAddress, .addNewSecondaryContact, .addLicenceNumber,.addWebsite{
+	cursor:pointer;
+}
+
+.companyAddEditForm .input-group , .deviceAddEditForm .input-group,.baitAddEditForm .input-group,.userAddEditForm #ParentAddressSpan{
+	margin-bottom:5px; 
+	margin-top:3px;	
+}
+
+@media (min-width: 768px){
+	.form-horizontal .control-label {
+		text-align: left !important;
+	}
+}
+.label-error-validation{
+	color:#ed5565;
+}
+.viewFloorPlan{
+	cursor:pointer;
+}	
+.note-editable{
+	-moz-height:45% !important;
+	height:85% !important;	
+}
+#naceList{
+	height:500px;
+	overflow: hidden;
+	position:relative;
+}
+#tab-1,#tab-2,#tab-3 {
+	max-height:700px;
+	overflow: hidden;
+	position:relative;
+}
+
+.bait-toxic-margin {
+	margin-right: 5px !important;
+}
+
+abbr[title] {
+	cursor: default !important;	
+	border-bottom:none !important;
+}
+
+.nav > li > a {
+    outline:none;
+}
+
+.sizeForDevice{
+	width:50px !important;
+}
+.hideDivForPest,.hideDivForDevice{
+          display:none;
+}
+.navbar-form-custom{
+	width: 500px
+}
+.twitter-typeahead,.tt-dropdown-menu{
+	width: 500px;
+}
+.tt-dropdown-menu{
+	border: 1px solid;
+	background: #45AE5A;
+}
+.search-suggestion-heading{
+	color:#FFFFFF; 
+}
+.search-suggestion-box{
+	padding: 8px 20px 5px;
+}
+.snippet_content{
+	margin-top: -15px; 
+	margin-bottom: 15px;
+}
+
+.row-padding{
+	padding: 6px 20px !important;	
+}
+.addDevicesToList{
+	margin-left:500px;
+	top:-37px !important;
+}
+.Textboxalignment{
+	top:-60px;
+	left:660px;
+}
+.TextboxLablealignment{
+	top:0px;
+	left:480px;
+}
+.labelAlignment{
+	margin-left:600px;
+	top:-35px;
+}
+	padding: 6px 20px !important;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(../fonts/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(../fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(../fonts/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(../fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+ .profileImage{
+        width: 100%;
+ }
+
+.toxic_image{
+	display:none;
+}
+.yob-text-muted {
+    color: rgba(176, 176, 176, 1);
+}
+
+.padding-sm{
+	padding-top:4px;
+	padding-bottom: 2px
+}
+.iconRed{
+	height: 40px;
+  	width: 60px;
+ 	background: url("../img/icon_Red.png") no-repeat center / 30px 25px rgba(0, 0, 0, 0);
+ 	background-size: 30px 25px;
+}
+.iconGreen{
+	height: 40px;
+  	width: 60px;
+ 	background: url("../img/icon_Green.png") no-repeat center / 30px 25px rgba(0, 0, 0, 0);
+ 	background-size: 30px 25px;
+}
+.iconOrange{
+	height: 40px;
+  	width: 60px;
+ 	background: url("../img/icon_Orange.png") no-repeat center / 30px 25px rgba(0, 0, 0, 0);
+ 	background-size: 30px 25px;
+}
+
+#expectedPest,#devicesForCheckpoint,#pestRecord, #performedWorkPanel{
+	max-height:250px;
+	overflow: hidden;
+	position:relative;
+}
+
+#sensorAlertList,#scrollForUnallocatedCheckpoints{
+	max-height:450px;
+	overflow: hidden;
+	position:relative;
+}
+.ellipsis {
+ 	overflow: hidden; /* to hide anything that doesn't fit in the containing element. */
+    white-space: nowrap; /* to make sure the line doesn't break when it is longer than the containing div. */
+    text-overflow: ellipsis;
+    line-height: 1.3
+}
+a {
+   outline: 0!important;
+}
+.calenderControl {
+	cursor: default !important;	
+}
+.resizeVerticleOnly{
+	resize: vertical;	
+}
+.form-group .btn-white{
+	min-width:100px !important;	
+}
+.form-group .dropdown-menu{
+	 min-width: 100px !important;	
+}
+.img-bg{
+ background-color: #58abd6;
+}
+#selectedPests,#selectedDevices{
+	max-height:200px;
+	overflow: hidden;
+	position:relative;
+}
+.device-count-info .label {
+line-height: 12px;
+padding: 2px 5px;
+right: 4px;
+top: -12px;
+}
+.companyaddress{
+	height:50px;
+}
+input[type="number"] {
+   width:50px;
+}
+.pestwatcherWidgetButton{
+	font-size: 20px;
+	cursor: pointer;
+	margin-top:-5px;
+}
+.top-margin-5{
+	margin-top: 5px;
+}
+.onoffswitch-switch{
+	display: none;
+}
+.recomm_complete .onoffswitch-inner:after{
+content:'DONE'	
+}
+.recomm_complete .onoffswitch-inner:before{
+content:'DONE'	
+}
+.img-circle{
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.deviceStatus .onoffswitch-inner:after{
+	content:"Offline"
+}
+.deviceStatus .onoffswitch-inner:before{
+	content:"Online"
+}
+
+@-moz-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Firefox */
+@-webkit-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Webkit */
+@-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* IE */
+@keyframes blink {0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}} /* Opera and prob css3 final iteration */
+.blink {
+-moz-transition:all 1s ease-in-out;
+-webkit-transition:all 1s ease-in-out;
+-o-transition:all 1s ease-in-out;
+-ms-transition:all 1s ease-in-out;
+transition:all 1s ease-in-out;
+/* order: name, direction, duration, iteration-count, timing-function */   
+-moz-animation:blink normal 2s infinite ease-in-out; /* Firefox */
+-webkit-animation:blink normal 2s infinite ease-in-out; /* Webkit */
+-ms-animation:blink normal 2s infinite ease-in-out; /* IE */
+animation:blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+animation: 2s ease-in-out 0s normal none infinite blink;
+transition: all 1s ease-in-out 0s;
+}
+
+.timeline-item .date{
+	text-align: left ;
+}
+
+/*
+ *   SKIN 4 - Start.  New skin for left menu enhancement changes done by DSO
+*/
+.skin-1 .navbar-default {
+    background-color:#377abb;
+    border-color: #2f4050;
+}
+.skin-1 .minimalize-styl-2 {
+  margin: 14px 5px 5px 30px;
+}
+.skin-1 .navbar-top-links li:last-child {
+  margin-right: 30px;
+}
+.skin-1.fixed-nav .minimalize-styl-2 {
+  margin: 14px 5px 5px 15px;
+}
+.skin-1 .spin-icon {
+  background: #0e9aef !important;
+}
+.skin-1 .nav-header {
+  background: #0e9aef;
+  background: url('patterns/header-profile-skin-1.png');
+}
+.skin-1.mini-navbar .nav-second-level {
+  background: #3e495f;
+}
+.skin-1 .breadcrumb {
+  background: transparent;
+}
+.skin-1 .page-heading {
+  border: none;
+}
+.skin-1 .nav > li.active {
+  background: #58abd6;
+}
+/****Changed with the help of Shilpa to restrict the ' li > a ' css only to left panel menus*********/
+.skin-1 .sidebar-collapse .nav > li > a {
+  color: #fff;
+}
+/**********************************************************************************************/
+.skin-1 .nav > li.active > a {
+  color: #fff;
+}
+.skin-1 .navbar-minimalize {
+  background: #0e9aef;
+  border-color: #0e9aef;
+}
+body.skin-1 {
+  background: #377abb;
+}
+.skin-1 .navbar-static-top {
+  background: #ffffff;
+}
+.skin-1 .dashboard-header {
+  background: transparent;
+  border-bottom: none !important;
+  border-top: none;
+  padding: 20px 30px 10px 30px;
+}
+.fixed-nav.skin-1 .navbar-fixed-top {
+  background: #fff;
+}
+.skin-1 .wrapper-content {
+  padding: 30px 15px 0;
+}
+.skin-1 #page-wrapper {
+  background: #f4f6fa;
+}
+.skin-1 .ibox-title,
+.skin-1 .ibox-content {
+  border-width: 1px;
+}
+.skin-1 .ibox-content:last-child {
+  border-style: solid solid solid solid;
+}
+.skin-1 .nav > li.active {
+  border: none;
+}
+.skin-1 .nav-header {
+  padding: 35px 25px 25px 25px;
+}
+.skin-1 .nav-header a.dropdown-toggle {
+  color: #fff;
+  margin-top: 10px;
+}
+.skin-1 .nav-header a.dropdown-toggle .text-muted {
+  color: #fff;
+  opacity: 0.8;
+}
+.skin-1 .profile-element {
+  text-align: center;
+}
+.skin-1 .img-circle {
+  border-radius: 5px;
+}
+.skin-1 .navbar-default .nav > li > a:hover,
+.skin-1 .navbar-default .nav > li > a:focus {
+  background: #58abd6;
+  color: #fff;
+}
+.skin-1 .nav-second-level li,
+.skin-1 .nav-third-level li {
+   background: #377abb;
+}
+.skin-1 .nav-second-level li:last-child {
+  margin-bottom: 0px;
+ /* border-bottom: 1px solid #fff !important;*/
+}
+.skin-1 .nav-header{
+	background:  url("../img/bk.png") repeat scroll 0 0 rgba(0, 0, 0, 0)
+}
+/***************************************** SKIN 4 - End **********************************************/
+
+/******************Changes done as per new skin added by DSO*****************************************/
+
+.btn-success.btn-outline {
+    color: #58abd6 !important;
+}
+
+.btn-success {
+  border-color: #58abd6 !important;
+  color: #ffffff !important;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-color: #58abd6 !important;
+  border-color: #58abd6 !important;
+  color: #FFFFFF !important;
+}
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+
+.form-control:focus{
+	border-color: #58abd6 !important;
+}
+.onoffswitch-label {
+	border: 1px solid #58abd6 !important;
+}
+.onoffswitch-inner:before {
+  background-color: #58abd6 !important;
+}
+/***************************************************************************************************/
+
+/***The panel heading font on widgets color was dark black, to match it with css of body, it is overridden*****/
+/***Changed with the help of Shilpa**********************/
+.panel-default> .panel-heading {
+	 color: inherit;
+}
+/***************************************************************************************************/
+
+/*** to remove the thin line shown at right of tabs on recommendation widget and also preferences tabs*****/
+.nav-tabs > li > a {
+margin-right : 0px;	
+}
+/***************************************************************************************************/
+.nav.nav-tabs li {
+    background: none repeat scroll 0 0 #e6e6e6;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  background-color: #0095D4;
+  color: #FFFFFF;
+}
+
+/*******************************Start for loader image********************************************************************/
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  z-index: 2000;
+  position: fixed;
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pace.pace-inactive .pace-activity {
+  display: none;
+}
+
+.pace .pace-activity {
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: -30px;
+  top: -30px;
+  height: 90px;
+  width: 90px;
+  display: block;
+  border-width: 0px;
+  border-style: double;
+  border-color: #29d transparent transparent;
+  border-radius: 50%;
+  
+}
+
+.pace .pace-activity:before {
+  content: ' ';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  border-width: 0px;
+  border-style: hidden;
+  border-color: #29d transparent transparent;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+  100% { -moz-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+  100% {  transform: rotate(359deg); }
+}
+/*******************************End for loader image********************************************************************/
+
+
+/** to show move cursor while dragging checkpoints on floorplan */
+.ui-draggable{
+  cursor: move !important;
+}
+
+.skin-setttings .title{
+	 background-color: #1c84c6;
+	 color: #FFF;
+}
+.theme-config{
+	top: 54px;
+}
+.skin-setttings .feed-activity-list{
+	border: solid 1px #e7eaec;
+	display: none;
+}
+.skin-setttings .feed-element{
+	cursor: pointer;
+}
+.label-warning-light, .badge-warning-light{
+	background-color: #299FD5;
+}
+.btn-warning,.btn-warning:hover{
+	background-color: #1c84c6;/*quick fix for demo*/
+	border-color:#1c84c6
+}
+.timeline-item .content{
+	min-height: 50px !important;
+}
+
+/** CSS classes for left menue icon. .................... Start */
+.YOBIcon {
+  display: inline-block;
+  margin:-3px 8px !important;
+  height:16px;
+  width:16px;
+}
+
+.YOBDashboard {
+  background:url(../img/Icon_Dashboard16.png) no-repeat;
+}
+.YOBRecommendations {
+  background:url(../img/Icon_Task16.png) no-repeat;
+}
+.YOBVenues {
+  background:url(../img/Icon_Venue16.png) no-repeat;
+}
+.YOBContacts {
+  background:url(../img/Icon_Contact16.png) no-repeat;
+}
+.YOBCalender {
+  background:url(../img/Icon_Calendar16.png) no-repeat;
+}
+.YOBMasterdata {
+  background:url(../img/Icon_MasterData16.png) no-repeat;
+}
+
+.YOB-Master-Companies {
+  background:url(../img/Icon_Companies16.png) no-repeat;
+}
+.YOB-Master-Devices {
+  background:url(../img/Icon_DevicesMenu16.png) no-repeat;
+}
+.YOB-Master-Baits {
+  background:url(../img/Icon_BaitsMenu16.png) no-repeat;
+}
+.YOB-Master-System {
+  background:url(../img/Icon_System16.png) no-repeat;
+}
+
+.YOB-Master-System-Bridges {
+  background:url(../img/Icon_Bridges16.png) no-repeat;
+}
+.YOB-Master-System-Sensors {
+  background:url(../img/Icon_Sensors16.png) no-repeat;
+}
+.YOB-Master-Pests {
+  background:url(../img/Icon_Pest16.png) no-repeat;
+}
+/** CSS classes for left menue icon. .................... End */
+
+/***CSS Added for the width of balloon of checkpoint details on Hover***/
+.customPopover{
+	min-width : 20% !important;	
+}
+/***********************************************************************/
+.token-input-dropdown-facebook{
+	max-height:180px;
+	overflow: hidden;
+	position:absolute;
+}
+/*****Added to hide 1 of 2 pixels seen between button and inputbox (Bug 4853: 'My Information' form )*****/
+.input-group-btn .dropdown-toggle{
+	margin-left: -1px;	
+}
+/****************************************************************************************/
+.table-mail{
+	table-layout:fixed
+}
+
+/****************************************************************************************/
+.recommendationParentRecord {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+}
+/****************************************************************************************/
+
+/***********************************************************************/
+#baitHistoryWidget{
+	max-height:200px;
+	overflow: hidden;
+	position:relative;
+}
+.activeSensorViewCheckpoint{
+	color:#009900 !important;
+}
+/********************This is overridden for issue of Images too large on IE 10 ******************************/
+.img-responsive,.thumbnail>img,.thumbnail a>img,.carousel-inner>.item>img,.carousel-inner>.item>a>img
+	{
+	width: auto \9 !important;
+}
+/************************************************************************************************************/
